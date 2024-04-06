@@ -7,7 +7,7 @@ public class RandomStringChooser
     for(String i : a){
       arr.add(i);
     }
-  }
+  } 
   public String getNext(){
     if(arr.size()==0){
       return "NONE";
